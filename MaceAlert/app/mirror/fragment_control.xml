@@ -1,0 +1,13 @@
+<!-- Generated template screen file. Fill the id tags below with content
+with which to populate your previewed layout. For help with sample
+data, please see http://jimulabs.com/sample-data-specifications/ -->
+<screen>
+    <_content layout="@layout/fragment_control">
+        <textView2></textView2>
+        <imageView></imageView>
+        <textView_mode></textView_mode>
+        <textView_mode_desc></textView_mode_desc>
+        <button></button>
+        <linear_tab></linear_tab>
+    </_content>
+</screen>

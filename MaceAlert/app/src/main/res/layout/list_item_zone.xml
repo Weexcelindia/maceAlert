@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    >
+
+    <com.mace.View.Txt_Montserat_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Zone1"
+        android:id="@+id/textView12"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:paddingRight="4dp"
+        android:gravity="left|center_vertical"
+
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_centerVertical="true"
+        />
+
+    <com.mace.View.Txt_Montserat_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="fhdjkfdhdfsjkdhfjkhsdfjkldhfsjkfhsdjksdhfjk"
+        android:id="@+id/textView_desc"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView12"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:paddingRight="8dp"
+        android:paddingLeft="4dp"
+        android:drawableRight="@drawable/arrow_right"
+        android:gravity="right|end"
+        android:drawablePadding="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey_shade2"
+
+        />
+</RelativeLayout>

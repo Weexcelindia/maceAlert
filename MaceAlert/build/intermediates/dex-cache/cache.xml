@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\sugar-1.2-57f42b90a563e5cdda9bac3c4f4a2e5687181dea.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\app\libs\sugar-1.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4ae4285268188e3546c2c1bbf199d2d824f6a596"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-01102189f67d11b514fa4a3b2ff034474262a177.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\build\intermediates\exploded-aar\MaceAlert\actionbarsherlock\unspecified\libs\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\aspectjrt-1.7.4-ef10239f0f122cf954a7260a30e6345ad68fc3b4.jar"
+        jar="C:\Documents and Settings\A\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjrt\1.7.4\e49a5c0acee8fd66225dc1d031692d132323417f\aspectjrt-1.7.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e49a5c0acee8fd66225dc1d031692d132323417f"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\hugo-annotations-1.1.0-d4db680e113028372537ada0b91db15b72e76073.jar"
+        jar="C:\Documents and Settings\A\.gradle\caches\modules-2\files-2.1\com.jakewharton.hugo\hugo-annotations\1.1.0\e67a622a9034c9e995750528180b8e19434f6e02\hugo-annotations-1.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e67a622a9034c9e995750528180b8e19434f6e02"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-b1538e8ec5e02684ef1277012739d09ea7e3e0d0.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\classes-a8fada5b600f246821f632004c0aa7f966241677.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\build\intermediates\exploded-aar\MaceAlert\jfsteinlibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8fc0a557077f0a9b5ac7474da484ff1e074ac276"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\otto-1.3.5-6557e819df2bc07a405e4b01d40f0b3dc89b8b4d.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\app\libs\otto-1.3.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7941cd2c2c8ec006800d75c35f8a9dacf892ab93"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\classes-1d07e0dd8549a9a95cd0535b54bb87ca84f6109d.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.4.52\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\classes-386e77783721e8f97041db01db4aa246c054b8b5.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\build\intermediates\exploded-aar\com.jakewharton.hugo\hugo-runtime\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="25bac7a5db190df4dabc9e282b0cb57d400c415b"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\classes-1afa88deaef65d9f5dfb6d0d442c47d3edd889d1.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\build\intermediates\exploded-aar\com.soundcloud.android\android-crop\0.9.9\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e304896c4303237f3878e34b638b547ee88eb15d"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\classes-7681c7851105d24ba6bfbd5a040f4e7a552bf946.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\build\intermediates\exploded-aar\MaceAlert\actionbarsherlock\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9fe2bbc3979eba7d19826e8dd5732d6914c33944"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-c63a85fe4d966801fbb0e4146474dcd3213d870c.jar"
+        jar="D:\adt-bundle-windows-x86-20130522\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+    <item
+        dex="C:\Documents and Settings\A\Desktop\MaceAlert\app\build\intermediates\pre-dexed\debug\picasso-2.2.0-fec4d4c06859de75a04d3ade2ba5cf68876d5372.jar"
+        jar="C:\Documents and Settings\A\Desktop\MaceAlert\app\libs\picasso-2.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9"/>
+
+</pre-dex-items>

@@ -1,0 +1,8 @@
+ Table not being created????
+
+
+1.Manifest domain metatag present and pointing to wrong package(WHere classes not found)
+2.Numbers in Table fields ex-Sensor2
+3.constructor with single parameter of context not present in domain classes
+4.Change fields in table after already creation of table on device(uninstall app then run again)
+%.Capital letter in the beginning of field

@@ -1,0 +1,12 @@
+<!-- Generated template screen file. Fill the id tags below with content
+with which to populate your previewed layout. For help with sample
+data, please see http://jimulabs.com/sample-data-specifications/ -->
+<screen>
+    <_content layout="@layout/abs__search_dropdown_item_icons_2line">
+        <android-icon1></android-icon1>
+        <edit_query></edit_query>
+        <android-icon2></android-icon2>
+        <android-text2 text="textview" />
+        <android-text1 text="textview" />
+    </_content>
+</screen>

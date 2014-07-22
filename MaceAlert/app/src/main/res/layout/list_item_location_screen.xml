@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_edt"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <FrameLayout
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:id="@+id/framelayout"
+        >
+
+        <com.mace.View.TintableImageView
+            android:id="@+id/imageView"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            app:tint="@drawable/color_selector"
+            android:padding="4dp"
+            />
+
+        `<ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/frame"
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="4dp"
+        android:layout_toLeftOf="@+id/imageView_arrow"
+        android:layout_toRightOf="@+id/framelayout"
+        android:orientation="vertical">
+
+
+        <com.mace.View.Txt_Montserat_Regular
+            android:id="@+id/textView_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="MaceAlert 2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/grey_shade2"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

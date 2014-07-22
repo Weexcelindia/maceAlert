@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    >
+    <com.mace.View.LocationView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:id="@+id/locationview"
+        >
+    </com.mace.View.LocationView>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/save_bar"
+        android:layout_below="@+id/locationview"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <com.mace.View.Txt_Montserat_Regular
+            style="@style/txt_label"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:text="RECIPIENTS"
+            android:textColor="@color/grey_shade1" />
+        <!-- Done Weexcel : please check all view should have bold label as the ui-->
+        <com.mace.View.Btn_Montserat_Bold
+            android:id="@+id/button_contacts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_white_selector"
+            android:drawablePadding="16dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Contacts"
+            android:textSize="20sp" />
+
+        <com.mace.View.Txt_Montserat_Regular
+            style="@style/txt_label"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:text="ACTIVATE NOTIFICATIONS"
+            android:textColor="@color/grey_shade1" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/toggleButton_email"
+            android:background="@color/grey_shade3"
+            android:layout_marginTop="4dp"
+            ></View>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:gravity="center"
+            android:padding="8dp"
+            android:id="@+id/tap"
+            >
+
+            <com.mace.View.Txt_Montserat_Bold
+                style="@style/txt_label"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_toLeftOf="@+id/segment_parent"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="Text"
+                android:textColor="@android:color/black"
+
+                />
+
+            <com.mace.View.Tggl_Montserat_regular
+                android:id="@+id/toggleButton_arm"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/selector_toggle_btn_checked"
+                android:checked="true"
+                android:text="New ToggleButton"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/toggleButton_email"
+            android:background="@color/grey_shade3"
+            android:layout_marginLeft="24dp"
+
+            ></View>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <com.mace.View.Txt_Montserat_Bold
+                style="@style/txt_label"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="0dp"
+                android:layout_toLeftOf="@+id/segment_parent"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:text="Email"
+                android:textColor="@android:color/black"
+
+                />
+
+            <com.mace.View.Tggl_Montserat_regular
+                android:id="@+id/toggleButton_email"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/view"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/selector_toggle_btn_checked"
+                android:checked="true"
+                android:text="New ToggleButton"
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/toggleButton_email"
+            android:background="@color/grey_shade3"
+            ></View>
+        <com.mace.View.Txt_Montserat_Regular
+            style="@style/txt_label"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:text="EMAIL SIGNATURE"
+            android:textColor="@color/grey_shade1" />
+        <!-- Done Weexcel : this part is hidden on small screen device-->
+        <com.mace.View.Edt_Montserat_Bold
+            android:id="@+id/edt_zone_sensor"
+            style="@style/Edt_.white"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:lines="5"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:singleLine="false"
+            android:text="--------------"
+            android:layout_marginBottom="4dp"
+
+            />
+
+    </LinearLayout>
+    </ScrollView>
+    <com.mace.View.SaveBarView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/save_bar"
+        >
+    </com.mace.View.SaveBarView>
+</RelativeLayout>

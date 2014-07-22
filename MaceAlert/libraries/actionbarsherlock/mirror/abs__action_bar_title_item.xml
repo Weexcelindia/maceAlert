@@ -1,0 +1,10 @@
+<!-- Generated template screen file. Fill the id tags below with content
+with which to populate your previewed layout. For help with sample
+data, please see http://jimulabs.com/sample-data-specifications/ -->
+<screen>
+    <_content layout="@layout/abs__action_bar_title_item">
+        <abs__up></abs__up>
+        <abs__action_bar_title text="textview" />
+        <abs__action_bar_subtitle text="textview" />
+    </_content>
+</screen>

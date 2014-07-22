@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:background="#00000000"
+    android:clickable="true"
+    >
+    <com.mace.View.Txt_Montserat_Regular
+        android:id="@+id/textView_add_contacts"
+        style="@style/txt_label"
+        android:layout_width="fill_parent"
+        android:layout_height="72dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bg_list_item_white_pressed"
+        android:gravity="center_vertical"
+        android:text="+ Add Device"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_sky"
+        android:textSize="20sp"
+        android:padding="4dp"
+
+        />
+</LinearLayout>

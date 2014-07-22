@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp" 
+    android:background="@drawable/btn_white_selector">
+
+
+    <com.mace.View.Txt_Montserat_Regular
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:text="help topic 1"
+        android:drawableLeft="@drawable/icon_book"
+        android:drawablePadding="20dp"
+        />
+
+</LinearLayout>

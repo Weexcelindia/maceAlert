@@ -1,0 +1,44 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_id"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal"
+    android:background="@color/white"
+   >
+
+    <com.mace.View.Txt_Montserat_Regular
+        android:id="@+id/txt_time"
+        style="@style/txt_label"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/george_house"
+        android:textColor="@color/grey_shade2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView123"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/padding_medium"
+        android:src="@drawable/sel_loc_marker"
+        android:layout_marginRight="8dp"
+
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey_shade2"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/stick"
+        >
+        </View>
+
+</RelativeLayout>

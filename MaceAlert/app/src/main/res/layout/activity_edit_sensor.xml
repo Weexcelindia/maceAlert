@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+
+    android:orientation="vertical"
+    tools:context="com.mace.maceAlert.Registration$PlaceholderFragment">
+
+    <com.mace.View.LocationView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:id="@+id/locationview"
+        >
+    </com.mace.View.LocationView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_bar"
+        android:layout_below="@+id/locationview"
+        android:overScrollMode="never"
+
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.mace.View.Txt_Montserat_Regular
+                android:id="@+id/textView_name"
+                style="@style/txt_label"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/sen_name"
+                android:textColor="@color/grey_shade1" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.mace.View.Edt_Montserat_regular
+                    android:id="@+id/edt_zone_sensor"
+                    style="@style/Edt_.white"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toLeftOf="@+id/view2"
+                    android:inputType="textPersonName" />
+
+                <com.mace.View.Btn_Montserat_Regular
+                    android:id="@+id/view2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="8dp"
+                    android:background="@android:color/transparent"
+                    android:text="Cancel"
+                    android:textColor="@color/blue_sky" />
+
+            </RelativeLayout>
+
+            <com.mace.View.Txt_Montserat_Regular
+                android:id="@+id/textView_pswd"
+                style="@style/txt_label"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/sen_id"
+                android:textColor="@color/grey_shade1" />
+
+
+            <com.mace.View.Edt_Montserat_regular
+                android:id="@+id/edt_pswd"
+                style="@style/Edt_.white"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:drawablePadding="4dp"
+                android:drawableRight="@drawable/icon_search"
+                android:editable="false"
+                android:inputType="text"
+                android:paddingLeft="8dp"
+                android:paddingRight="24dp"
+                android:text="14" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_white_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.mace.View.Txt_Montserat_Regular
+                    android:id="@+id/view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Zone assignment"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <com.mace.View.NumberChanger
+                    android:id="@+id/number_changer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="New Button" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_white_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+
+                >
+
+                <com.mace.View.Txt_Montserat_Regular
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Monitor sensor"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <com.mace.View.Tggl_Montserat_regular
+                    android:id="@+id/toggleButton_sensor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/selector_toggle_btn_checked"
+                    android:checked="true"
+                    android:text="New ToggleButton"
+                    android:textColor="@color/white"
+
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <com.mace.View.SaveBarView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/save_bar"
+            >
+        </com.mace.View.SaveBarView>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

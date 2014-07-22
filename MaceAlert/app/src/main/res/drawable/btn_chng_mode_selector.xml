@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/blue_sky_shade1">
+
+            </solid>
+            <corners android:radius="5dp"></corners>
+        </shape>
+
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/blue_sky">
+
+            </solid>
+            <corners android:radius="5dp"></corners>
+        </shape>
+
+    </item>
+</selector>

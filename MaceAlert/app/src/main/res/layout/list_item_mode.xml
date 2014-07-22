@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_mode"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/checkedTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="76dp"
+        android:button="@android:color/transparent"
+        android:clickable="false"
+        android:text="" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:layout_marginLeft="12dp"
+        >
+
+        <com.mace.View.Txt_Montserat_Bold
+            android:id="@+id/textView_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blue_sky"
+            android:textSize="22sp" />
+
+        <com.mace.View.Txt_Montserat_Regular
+            android:id="@+id/textView_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_mode"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/grey_shade3"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:padding="4dp"
+        android:src="@drawable/lock_icon_gray" />
+
+    <ImageView
+        android:id="@+id/imageView_arrow"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/img"
+        android:src="@drawable/arrow"
+        android:visibility="gone"
+
+        />
+
+
+</RelativeLayout>

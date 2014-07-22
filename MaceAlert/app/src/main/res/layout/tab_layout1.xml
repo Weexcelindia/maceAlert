@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="@color/blue_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="false"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_change_mode"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_shade1"
+            >
+        </View>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_shade1"
+            >
+        </View>
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="2dp"
+        >
+
+
+        <com.mace.View.SegmentedRadioGroup
+            android:id="@+id/segment_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:checkedButton="@+id/button_add"
+            android:orientation="horizontal">
+
+            <com.mace.View.CenteredRadioImageButton
+                android:id="@+id/tab1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:button="@drawable/tab1_selector"
+                android:gravity="center" />
+
+            <com.mace.View.CenteredRadioImageButton
+                android:id="@+id/tab2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@drawable/tab2_selector"
+                android:gravity="center"
+
+                />
+
+            <ImageButton
+                android:id="@+id/tab3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/tab3_selector"
+                android:gravity="center"
+               android:background="@android:color/transparent"
+                />
+
+        </com.mace.View.SegmentedRadioGroup>
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

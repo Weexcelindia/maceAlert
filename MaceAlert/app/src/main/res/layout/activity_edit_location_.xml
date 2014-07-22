@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mace.maceAlert.Registration$PlaceholderFragment"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_bar"
+        android:layout_alignParentTop="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.mace.View.Txt_Montserat_Regular
+                android:id="@+id/textView_name"
+                style="@style/txt_label"
+                android:text="@string/loc_name"
+                android:textColor="@color/grey_shade1" />
+
+            <com.mace.View.Edt_Montserat_Bold
+                android:id="@+id/edt_zone_sensor"
+                style="@style/Edt_.white"
+                android:inputType="textPersonName"
+
+                />
+
+            <com.mace.View.Txt_Montserat_Regular
+                android:id="@+id/textView_email"
+                style="@style/txt_label"
+                android:text="@string/time_zon"
+
+                android:textColor="@color/grey_shade1" />
+
+            <com.mace.View.Btn_Montserat_Bold
+                android:id="@+id/btn_timezone"
+                style="@style/Edt_.white"
+                android:drawableRight="@drawable/arrow_right"
+                android:inputType="textEmailAddress"
+                android:paddingRight="16dp"
+                android:gravity="left|center_vertical"
+                android:ellipsize="end"
+                android:drawablePadding="4dp"
+                />
+
+            <com.mace.View.Txt_Montserat_Regular
+                android:id="@+id/textView_pswd"
+                style="@style/txt_label"
+                android:text="@string/pnl_assgnmt"
+                android:textColor="@color/grey_shade1" />
+
+            <com.mace.View.Edt_Montserat_Bold
+                android:id="@+id/edt_pnlassgnmt"
+                style="@style/Edt_.white"
+                android:drawablePadding="4dp"
+                android:drawableRight="@drawable/icon_search"
+                android:inputType="text"
+                android:paddingRight="16dp"
+                />
+
+            <!--done  Weecel : there should be new passcode & old passcode -->
+            <com.mace.View.Txt_Montserat_Regular
+                android:id="@+id/textView_passcode"
+                style="@style/txt_label"
+                android:text="@string/pnl_scrty_cd"
+                android:textColor="@color/grey_shade1"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_toLeftOf="@+id/img_eye"
+                    android:background="@drawable/btn_white_selector_corner_rnd"
+                    android:layout_marginRight="4dp"
+                    >
+
+                    <com.mace.View.Edt_Montserat_Bold
+                        android:id="@+id/edt_panelold"
+                        style="@style/Edt_.white"
+                        android:background="@android:color/transparent"
+                        android:inputType="numberPassword"
+                        android:layout_weight="1"
+                        android:maxLength="4"
+                        android:hint="old passcode"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:textStyle="normal"
+                        android:textColorHint="@color/grey_shade3"
+
+                        />
+
+                    <com.mace.View.Edt_Montserat_Bold
+                        android:id="@+id/edt_panelnew"
+                        style="@style/Edt_.white"
+                        android:background="@android:color/transparent"
+                        android:inputType="numberPassword"
+                        android:layout_weight="1"
+                        android:maxLength="4"
+                        android:hint="new passcode"
+                        android:paddingRight="8dp"
+                        android:paddingLeft="8dp"
+                        android:textStyle="normal"
+                            android:textColorHint="@color/grey_shade3"
+
+                        />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_eye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="4dp"
+                    android:src="@drawable/eye_toggle" />
+            </RelativeLayout>
+
+            <com.mace.View.Txt_Montserat_Regular
+                android:id="@+id/textView_country"
+                style="@style/txt_label"
+                android:text="@string/emergency_spd_dial"
+                android:textColor="@color/grey_shade1" />
+
+            <com.mace.View.Edt_Montserat_Bold
+                android:id="@+id/edt_country"
+                style="@style/Edt_.white"
+                android:hint="Phone number"
+                android:inputType="phone"
+                android:textColorHint="@color/grey_shade3"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <!--done  Weecel : you should extract this save bar to a seperate view & create animation
+        -->
+        <!--done  Weecel : the grey line above the saveBar should not have padding on left & right
+      -->
+        <com.mace.View.SaveBarView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/save_bar"
+            >
+        </com.mace.View.SaveBarView>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

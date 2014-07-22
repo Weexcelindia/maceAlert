@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mace.maceAlert.Location_Register"
+    android:background="@color/white"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/textbox_connected"
+        android:layout_below="@+id/id_device"
+        android:layout_alignLeft="@+id/id_device"
+        android:layout_alignStart="@+id/id_device"
+        android:layout_marginTop="32dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/button_next"
+        android:background="@color/grey_shade3"
+        >
+    </View>
+
+
+    <com.mace.View.Btn_Montserat_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start setup"
+        android:id="@+id/button_next"
+        android:background="@android:color/transparent"
+        android:textColor="@color/blue_sky"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:onClick="actionSetup"
+        />
+
+    <com.mace.View.Txt_Montserat_Regular
+        android:id="@+id/textView_name"
+        style="@style/txt_label"
+        android:text="CURRENTLY CONNECTED TO:"
+        android:textColor="@color/grey_shade1"
+        android:textSize="16sp"
+        />
+
+    <com.mace.View.Txt_Montserat_Regular
+        android:id="@+id/id_device"
+        style="@style/txt_label"
+        android:text="macealert-jn23432"
+        android:textColor="@color/grey_shade1"
+        android:layout_below="@+id/textView_name"
+        android:drawableLeft="@drawable/icon_device"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<level-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item android:maxLevel="0" android:drawable="@drawable/list_item_selector_mode_green">-->
+    <!--</item>-->
+    <!--<item android:maxLevel="1" android:drawable="@drawable/list_item_selector_mode_yellow">-->
+    <!--</item>-->
+    <!--<item android:maxLevel="2" android:drawable="@drawable/list_item_selector_mode_red">-->
+    <!--</item>-->
+
+<!--</level-list>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/white" android:state_activated="false"/>
+    <item android:drawable="@color/green" android:state_pressed="true"/>
+    <item android:drawable="@color/green" android:state_activated="true"/>
+
+</selector>

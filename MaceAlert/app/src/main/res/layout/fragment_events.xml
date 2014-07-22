@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mace.maceAlert.Events"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white"
+
+    >
+
+    <com.mace.View.LocationView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:id="@+id/locationview"
+        >
+    </com.mace.View.LocationView>
+
+    <com.mace.View.Txt_Montserat_Regular
+        android:text="EVENTS LIST"
+        style="@style/txt_label"
+        android:textColor="@color/grey_shade1"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="0dp"
+        />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_marginTop="@dimen/margin_top"
+        android:overScrollMode="never"
+
+        android:scrollbars="none"
+        android:listSelector="@drawable/list_item_aelector_slide"
+
+
+        />
+</LinearLayout>

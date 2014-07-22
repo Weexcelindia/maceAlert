@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.mace.View.Txt_Montserat_Regular xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/textView"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/bg_edt"
+android:paddingBottom="4dp"
+android:paddingLeft="16dp"
+android:paddingTop="4dp"
+android:text=""
+android:textAppearance="?android:attr/textAppearanceMedium"
+android:textColor="@color/grey_shade2"
+android:textSize="14sp" />

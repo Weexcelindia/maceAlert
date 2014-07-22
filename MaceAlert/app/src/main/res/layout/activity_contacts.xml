@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    >
+    <com.mace.View.LocationView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:id="@+id/locationview"
+        >
+    </com.mace.View.LocationView>
+
+    <com.mace.View.Btn_Montserat_Regular
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a contact"
+        android:id="@+id/button_contacts"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="16dp"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="16dp"
+        android:background="@drawable/btn_white_selector"
+        android:drawableRight="@drawable/arrow_right"
+        android:paddingRight="16dp"
+        android:textSize="20sp"
+        />
+
+    <com.mace.View.Txt_Montserat_Regular
+        android:text="EDIT CONTACTS"
+        style="@style/txt_label"
+        android:textColor="@color/grey_shade1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="32dp"
+        />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:overScrollMode="never"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/transparent"
+        />
+</LinearLayout>

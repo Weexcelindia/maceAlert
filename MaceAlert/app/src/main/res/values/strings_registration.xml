@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Name</string >
+
+    <string name="email">Email</string >
+    <string name="password">Password</string >
+    <string name="passcode">Passcode</string >
+    <string name="country">Country</string >
+    <string name="registration">Registration</string>
+
+    <string name="loc_name">LOCATION NAME</string>
+    <string name="time_zon">TIME ZONE</string>
+    <string name="pnl_assgnmt">PANEL ASSIGNMENT</string>
+    <string name="pnl_scrty_cd">PANEL SECURITY CODE</string>
+    <string name="emergency_spd_dial">EMERGENCY SPEED DIAL</string>
+
+    <string name="sen_name">SENSOR NAME</string>
+    <string name="sen_id">SENSOR ID</string>
+    <string name="zon_assgnmt">Zone assignment</string>
+    <string name="monitor_sensor">Monitor sensor</string>
+
+    <string name="zone_name">ZONE NAME</string>
+    <string name="active_mode">ACTIVE MODES</string>
+    <string name="defaultmode">Choose the default modes for this zone</string>
+
+
+
+
+
+</resources>

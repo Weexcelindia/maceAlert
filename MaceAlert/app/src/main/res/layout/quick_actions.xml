@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="4dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/button_next"
+        android:background="@color/grey_shade3"
+
+        ></View>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:id="@+id/linear_action"
+        android:visibility="visible"
+        >
+
+        <com.mace.View.Btn_Montserat_Regular
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Cancel"
+            android:textColor="@color/blue_sky" />
+
+        <ImageView
+            android:id="@+id/imageView_bin"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="4dp"
+            android:src="@drawable/icon_bin"
+            android:scaleType="center"
+            />
+
+        <com.mace.View.Btn_Montserat_Regular
+            android:id="@+id/button_save"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Save"
+            android:textColor="@color/blue_sky"
+
+
+            />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linear_updating"
+    >
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:id="@+id/progressBar"
+        android:progressDrawable="@drawable/progressbar_drawable"
+        />
+
+    <com.mace.View.Txt_Montserat_Bold
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Updating..."
+        android:id="@+id/textView_msg"
+        android:gravity="center"
+        />
+</LinearLayout>
+</LinearLayout>

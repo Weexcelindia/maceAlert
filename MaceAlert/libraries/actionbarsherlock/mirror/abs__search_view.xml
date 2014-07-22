@@ -1,0 +1,14 @@
+<!-- Generated template screen file. Fill the id tags below with content
+with which to populate your previewed layout. For help with sample
+data, please see http://jimulabs.com/sample-data-specifications/ -->
+<screen>
+    <_content layout="@layout/abs__search_view">
+        <abs__search_badge text="textview" />
+        <abs__search_button></abs__search_button>
+        <abs__search_mag_icon></abs__search_mag_icon>
+        <abs__search_src_text></abs__search_src_text>
+        <abs__search_close_btn></abs__search_close_btn>
+        <abs__search_go_btn></abs__search_go_btn>
+        <abs__search_voice_btn></abs__search_voice_btn>
+    </_content>
+</screen>

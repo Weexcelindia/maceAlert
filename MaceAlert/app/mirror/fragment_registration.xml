@@ -1,0 +1,18 @@
+<!-- Generated template screen file. Fill the id tags below with content
+with which to populate your previewed layout. For help with sample
+data, please see http://jimulabs.com/sample-data-specifications/ -->
+<screen>
+    <_content layout="@layout/fragment_registration">
+        <textView_name></textView_name>
+        <edt_email></edt_email>
+        <textView_email></textView_email>
+        <email></email>
+        <textView_pswd></textView_pswd>
+        <edt_pswd></edt_pswd>
+        <textView_passcode></textView_passcode>
+        <edt_passcode></edt_passcode>
+        <textView_country></textView_country>
+        <edt_country></edt_country>
+        <btn_register></btn_register>
+    </_content>
+</screen>

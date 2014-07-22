@@ -1,0 +1,16 @@
+<!-- Generated template screen file. Fill the id tags below with content
+with which to populate your previewed layout. For help with sample
+data, please see http://jimulabs.com/sample-data-specifications/ -->
+<screen>
+    <_content layout="@layout/activity_login">
+        <login_progress></login_progress>
+        <textView></textView>
+        <textView2></textView2>
+        <email></email>
+        <textView3></textView3>
+        <password></password>
+        <email_sign_in_button></email_sign_in_button>
+        <textView4></textView4>
+        <textView5></textView5>
+    </_content>
+</screen>

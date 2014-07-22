@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mace.maceAlert" >
+    //Ok<!-- TODO Weexcel : can you help setup the a sample unit testing code to unit testing a activity -->
+    //TODO Weexcel
+    //billy : please tell me where did you put these testcase file to?
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>   // Change to Coarse loaction if not frequent updates required
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+
+        <meta-data android:name="DATABASE" android:value="sugar_macealert.db" />
+        <meta-data android:name="VERSION" android:value="1" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.ayla.domains" />
+
+
+        <activity
+            android:name="com.mace.maceAlert.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.Loginactivity"
+            android:label="@string/title_activity_loginactivity" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.ForgotpasswordActivity"
+            android:label="@string/title_activity_forgotpassword" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.Location"
+            android:label="@string/title_activity_location" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.BaseActivity"
+            android:label="@string/title_activity_base" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.Location_Register"
+            android:label="@string/title_activity_location__register" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.MainTabActivity"
+            android:label="@string/title_activity_control" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.Location_change_Activity"
+            android:label="@string/title_activity_location_change_" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.Edit_location_"
+            android:label="@string/title_activity_edit_location_" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.ActivityZone"
+            android:label="@string/zones" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.Edit_zone_"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.NotificationActivity"
+            android:label="@string/notification"
+            android:windowSoftInputMode="adjustPan"
+            >
+        </activity>
+        <activity
+        android:name="com.mace.maceAlert.ActivityContact"
+        android:label="@string/contact"
+        >
+
+    </activity>
+        <activity
+        android:name="com.mace.maceAlert.Edit_contact_"
+        android:label="" >
+    </activity>
+
+        <activity
+            android:name="com.mace.maceAlert.AccountActivity"
+            android:label="@string/credentials" >
+        </activity>
+
+        <activity
+            android:name="com.mace.maceAlert.Edit_Account_"
+            android:label="@string/account"
+
+            >
+        </activity>
+
+        <activity
+            android:name="com.mace.maceAlert.ActivitySensor"
+            android:label="Sensors" >
+        </activity>
+        <activity
+        android:name="com.mace.maceAlert.Edit_sensor_"
+        android:label="" >
+    </activity>
+        <activity
+            android:name="com.mace.maceAlert.ActivityAlarm"
+            android:label="@string/alarmsetup" >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.HelpActivity_Child"
+            android:label="Help"
+            android:theme="@style/Theme.Transparent"
+            >
+        </activity>
+        <activity
+            android:name="androidqa.IosSpinner"
+            android:label=" "
+            android:theme="@style/Noactionbar"
+            >
+        </activity>
+
+        <service android:name="com.ayla.logic.LocationUt">
+        </service>
+        <activity
+            android:name="com.mace.maceAlert.Location_Screen_Activity"
+            android:label="@string/title_activity_location" >
+        </activity>
+
+        <activity android:name="com.mace.maceAlert.FirmwareUpdateActivity"></activity>
+
+        <activity
+            android:name="com.mace.maceAlert.Addc_location"
+            android:label="Add Location"
+            ></activity>
+        <activity
+            android:name="com.mace.maceAlert.ConnectedScreen"
+            android:label="Add Location"
+            >
+        </activity>
+        <activity
+            android:name="com.mace.maceAlert.SetupScreen"
+            android:label=""
+            >  </activity>
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

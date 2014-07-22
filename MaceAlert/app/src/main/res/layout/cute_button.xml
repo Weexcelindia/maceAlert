@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.mace.View.SegmentedRadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/segment_parent"
+    android:layout_width="96dp"
+    android:layout_height="48dp"
+    android:layout_gravity="center"
+    android:checkedButton="@+id/button_add"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_cute_button_round"
+    >
+
+    <com.mace.View.CenteredRadioImageButton
+        android:id="@+id/tab1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:button="@android:color/transparent"
+        android:gravity="center"
+        android:checked="true"
+        android:background="@drawable/btn_white_selector_corner_rnd"
+        />
+
+    <com.mace.View.CenteredRadioImageButton
+        android:id="@+id/tab2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@android:color/transparent"
+
+        android:gravity="center"
+
+        />
+</com.mace.View.SegmentedRadioGroup>

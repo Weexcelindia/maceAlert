@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<item-->
+<!--android:state_selected="false"-->
+<!--android:state_pressed="false"-->
+<!--android:drawable="@color/white" />-->
+<!--<item android:state_pressed="true"-->
+<!--android:drawable="@color/green" />-->
+<!--<item android:state_selected="true"-->
+<!--android:state_pressed="false"-->
+<!--android:drawable="@color/green" />-->
+<!--</selector>-->
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/rect_trans_rnd" android:state_checked="false" />
+    <item android:drawable="@drawable/rect_trans_rnd" android:state_pressed="true"/>
+    <item android:drawable="@drawable/rect_red" android:state_checked="true"/>
+
+</selector>
+

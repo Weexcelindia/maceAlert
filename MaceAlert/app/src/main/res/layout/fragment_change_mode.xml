@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+
+    >
+    <com.mace.View.LocationView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:id="@+id/location_view"
+        ></com.mace.View.LocationView>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_marginTop="16dp"
+        android:overScrollMode="never"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:choiceMode="singleChoice"
+        android:scrollbars="none"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="3dp"
+        />
+
+
+
+</LinearLayout>

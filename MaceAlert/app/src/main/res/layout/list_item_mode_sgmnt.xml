@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    >
+
+    <com.mace.View.SegmentedRadioGroup
+        android:id="@+id/segment_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checkedButton="@+id/button_add"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.mace.View.CenteredRadioImageButton
+                android:id="@+id/tab1"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="right|end"
+                android:background="@drawable/list_item_selector_mode_green"
+                android:button="@android:color/transparent"
+                android:gravity="left" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <com.mace.View.Txt_Montserat_Bold
+                    android:id="@+id/textView_arm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue_sky"
+                    android:textSize="22sp" />
+
+                <com.mace.View.Txt_Montserat_Regular
+                    android:id="@+id/textView_desc_arm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_mode"
+                    android:layout_marginTop="2dp"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey_shade3"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_arm"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cross_lock_icon_gray"
+                />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.mace.View.CenteredRadioImageButton
+                android:id="@+id/tab2"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="right|end"
+                android:background="@drawable/list_item_selector_mode_green"
+                android:button="@android:color/transparent"
+                android:gravity="left" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <com.mace.View.Txt_Montserat_Bold
+                    android:id="@+id/textView_mode_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue_sky"
+                    android:textSize="22sp" />
+
+                <com.mace.View.Txt_Montserat_Regular
+                    android:id="@+id/textView_desc_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_mode"
+                    android:layout_marginTop="2dp"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey_shade3"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_home"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cross_lock_icon_gray"
+                />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.mace.View.CenteredRadioImageButton
+                android:id="@+id/tab3"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="right|end"
+                android:background="@drawable/list_item_selector_mode_green"
+                android:button="@android:color/transparent"
+                android:gravity="left" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <com.mace.View.Txt_Montserat_Bold
+                    android:id="@+id/textView_mode_chime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue_sky"
+                    android:textSize="22sp" />
+
+                <com.mace.View.Txt_Montserat_Regular
+                    android:id="@+id/textView_desc_chime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_mode"
+                    android:layout_marginTop="2dp"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey_shade3"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_chime"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cross_lock_icon_gray"
+                />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.mace.View.CenteredRadioImageButton
+                android:id="@+id/tab4"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="right|end"
+                android:background="@drawable/list_item_selector_mode_green"
+                android:button="@android:color/transparent"
+                android:gravity="left" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <com.mace.View.Txt_Montserat_Bold
+                    android:id="@+id/textView_mode_disarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue_sky"
+                    android:textSize="22sp" />
+
+                <com.mace.View.Txt_Montserat_Regular
+                    android:id="@+id/textView_desc_disarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_mode"
+                    android:layout_marginTop="2dp"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey_shade3"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_disarm"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cross_lock_icon_gray"
+                />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.mace.View.CenteredRadioImageButton
+                android:id="@+id/tab5"
+                android:layout_width="fill_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="right|end"
+                android:background="@drawable/list_item_selector_mode_green"
+                android:button="@android:color/transparent"
+                android:gravity="left" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <com.mace.View.Txt_Montserat_Bold
+                    android:id="@+id/textView_mode_panic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/blue_sky"
+                    android:textSize="22sp" />
+
+                <com.mace.View.Txt_Montserat_Regular
+                    android:id="@+id/textView_desc_Panic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_mode"
+                    android:layout_marginTop="2dp"
+                    android:text="Small Text"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/grey_shade3"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_panic"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cross_lock_icon_gray"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </com.mace.View.SegmentedRadioGroup>
+</LinearLayout>

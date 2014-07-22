@@ -1,0 +1,267 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    android:orientation="vertical"
+    tools:context="com.mace.maceAlert.Registration$PlaceholderFragment">
+
+   <com.mace.View.LocationView
+       android:layout_width="fill_parent"
+       android:layout_height="48dp"
+       android:id="@+id/location_view"
+       ></com.mace.View.LocationView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_bar"
+        android:overScrollMode="never"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:scrollbars="none"
+        android:layout_below="@+id/location_view"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="4dp"
+        >
+
+        <com.mace.View.Txt_Montserat_Regular
+            android:id="@+id/textView_name"
+            style="@style/txt_label"
+            android:text="NAME"
+            android:textColor="@color/grey_shade1" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.mace.View.Edt_Montserat_Bold
+                android:id="@+id/edt_name"
+                style="@style/Edt_.white"
+                android:layout_marginRight="4dp"
+                android:layout_toLeftOf="@+id/img_eye"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/img_eye"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="6dp"
+                android:src="@drawable/icon_plus" />
+        </RelativeLayout>
+
+
+        <com.mace.View.Txt_Montserat_Regular
+            android:id="@+id/textView_pswd"
+            style="@style/txt_label"
+            android:text="MOBILE NUMBER"
+            android:textColor="@color/grey_shade1" />
+
+        <!-- DOne Weexcel : should have another textInput for countryCode like +852 for hongKong, please review ios version apps-->
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:background="@drawable/btn_white_selector_corner_rnd"
+           >
+
+        <com.mace.View.Btn_Montserat_Bold
+            android:id="@+id/edt_country"
+            style="@style/Edt_.white"
+            android:drawablePadding="4dp"
+            android:inputType="phone"
+            android:paddingRight="16dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="left|center_vertical"
+            android:hint="@string/country"
+            android:textColorHint="@color/grey_shade3"
+            android:singleLine="true"
+            android:ellipsize="end"
+            />
+        <com.mace.View.Edt_Montserat_Bold
+            android:id="@+id/edt_mobileno"
+            style="@style/Edt_.white"
+            android:drawablePadding="4dp"
+            android:inputType="phone"
+            android:layout_weight="1"
+            android:paddingRight="16dp"
+            android:background="@android:color/transparent"
+            android:hint="Phonenumber"
+            android:textColorHint="@color/grey_shade3"
+            />
+
+       </LinearLayout>
+
+        <com.mace.View.Txt_Montserat_Regular
+            android:id="@+id/textView_passcode"
+            style="@style/txt_label"
+            android:text="EMAIL"
+            android:textColor="@color/grey_shade1"
+
+            />
+
+
+        <com.mace.View.Edt_Montserat_Bold
+            android:id="@+id/edt_email"
+            style="@style/Edt_.white"
+            android:layout_marginRight="4dp"
+            android:inputType="textEmailAddress" />
+
+        <com.mace.View.Txt_Montserat_Regular
+            android:id="@+id/textView_country"
+            style="@style/txt_label"
+            android:text="NOTIFICATION TYPE"
+            android:textColor="@color/grey_shade1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_box_corner_rounded"
+            android:orientation="vertical"
+            android:padding="1dp"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_left"
+            >
+
+            <com.mace.View.SegmentedRadioGroup
+                android:id="@+id/segment_parent"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:checkedButton="@+id/button_add"
+                android:orientation="horizontal">
+
+                <com.mace.View.CenteredRadioImageButton
+                    android:id="@+id/tab1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_radio_switch_first"
+                    android:button="@android:color/transparent"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="Text"
+                    android:textColor="@color/blue_sky" />
+
+                <com.mace.View.CenteredRadioImageButton
+                    android:id="@+id/tab2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_radio_switch"
+
+                    android:button="@android:color/transparent"
+
+                    android:gravity="center"
+                    android:text="Email"
+                    android:textColor="@color/blue_sky"
+
+                    />
+
+                <com.mace.View.CenteredRadioImageButton
+                    android:id="@+id/tab34"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_radio_switch_last"
+                    android:button="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="Both"
+                    android:textColor="@color/blue_sky" />
+
+            </com.mace.View.SegmentedRadioGroup>
+        </LinearLayout>
+
+        <com.mace.View.Txt_Montserat_Regular
+            style="@style/txt_label"
+            android:text="EVENT TYPE"
+            android:textColor="@color/grey_shade1"
+            android:layout_marginTop="32dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/blue_box_corner_rounded"
+            android:orientation="vertical"
+            android:padding="1dp"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_left"
+            >
+
+            <com.mace.View.SegmentedRadioGroup
+                android:id="@+id/segment_parent2"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:checkedButton="@+id/button_add1"
+                android:orientation="horizontal">
+
+                <com.mace.View.CenteredRadioImageButton
+                    android:id="@+id/tab2_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_radio_switch_first"
+                    android:button="@android:color/transparent"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="Alarms only"
+                    android:textColor="@color/blue_sky" />
+
+                <com.mace.View.CenteredRadioImageButton
+                    android:id="@+id/tab2_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_radio_switch"
+
+                    android:button="@android:color/transparent"
+
+                    android:gravity="center"
+                    android:text="All events"
+                    android:textColor="@color/blue_sky"
+
+                    />
+
+
+            </com.mace.View.SegmentedRadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <com.mace.View.SaveBarView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/save_bar"
+            >
+        </com.mace.View.SaveBarView>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
